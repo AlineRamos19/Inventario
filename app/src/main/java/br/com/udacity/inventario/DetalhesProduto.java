@@ -21,7 +21,7 @@ import android.widget.Toast;
 import br.com.udacity.inventario.DAO.ProdutoContrato;
 
 
-public class Detalhes_Produto extends AppCompatActivity implements LoaderManager.LoaderCallbacks<Cursor> {
+public class DetalhesProduto extends AppCompatActivity implements LoaderManager.LoaderCallbacks<Cursor> {
 
     private static final int LOADER = 0;
     private int mQuantidadeCompra = 0;
