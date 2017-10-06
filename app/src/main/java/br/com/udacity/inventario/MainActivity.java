@@ -73,7 +73,7 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
             startActivity(intent);
 
         } if (item.getTitle() == "Detalhes"){
-            Intent intent = new Intent(MainActivity.this, Detalhes_Produto.class);
+            Intent intent = new Intent(MainActivity.this, DetalhesProduto.class);
 
             Uri produtoUri = ContentUris.withAppendedId(ProdutoContrato.ProdutoEntrada.URI_CONTEUDO,
                     index);
