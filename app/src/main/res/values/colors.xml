@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#212121</color>
+    <color name="colorPrimaryDark">#424242</color>
+    <color name="colorAccent">#FF3F80</color>
+
+    <color name="txt_visualizao_vazia">#B0BEC5</color>
+    <color name="background_visualizacao_vazia">#ECEFF1</color>
+</resources>

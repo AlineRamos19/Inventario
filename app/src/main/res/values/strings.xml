@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Inventario</string>
+
+    <string name="visualizao_vazia">Não há nenhum produto adicionado</string>
+
+    /<string name="label_nome_produto">Nome</string>
+    <string name="label_preco">Preço</string>
+    <string name="label_cifrao">R$</string>
+    <string name="label_quantidade">Quantidade</string>
+    <string name="label_fornecedor">Fornecedor</string>
+    <string name="label_descricao_detalhe_produto">Descrição</string>
+    <string name="label_quantidade_disponivel_detalhe_produto">Disponível </string>
+
+    <string name="btn_comprar">Comprar</string>
+    <string name="btn_comprar_mais">Comprar mais</string>
+
+    <string name="txt_detalhes">Detalhes</string>
+
+    <string name="erro_insercao_URI">Falha na inserção da URI</string>
+
+    <string name="pedido_compra">Pedido de Compra --</string>
+    <string name="definir_quantidade"> a definir...</string>
+    <string name="toast_quantidade_minima">Quantidade minima</string>
+    <string name="toast_quantidade_maxima">Quantidade máxima</string>
+
+    <string name="act_bar_add_produto">Adicionar Produto</string>
+    <string name="act_bar_editar_produto">Editar Produto</string>
+
+    <string name="alert_descartar_sair">Descartar alterações e sair?</string>
+    <string name="alert_sair">Sair</string>
+    <string name="alert_continuar_edicao">Continuar edição</string>
+
+    <string name="alert_deletar_produto">Deletar esse produto?</string>
+    <string name="alert_deletar">Deletar</string>
+    <string name="alert_cancelar_delete">Cancelar</string>
+
+    <string name="toast_validar_campos">Favor preencher todos os campos</string>
+
+
+</resources>

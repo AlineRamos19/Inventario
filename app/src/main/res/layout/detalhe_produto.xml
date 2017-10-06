@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:text="@string/label_descricao_detalhe_produto" />
+
+        <TextView
+            android:id="@+id/nome_produto_detalhe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textCapCharacters|textMultiLine"
+            tools:text="Tênis Nike Air Max" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_preco" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:text="@string/label_cifrao" />
+
+        <TextView
+            android:id="@+id/preco_produto_detalhe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:inputType="textCapCharacters|textMultiLine"
+            tools:text="699,99" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:text="@string/label_quantidade_disponivel_detalhe_produto" />
+
+        <TextView
+            android:id="@+id/quantidade_produto_detalhe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textCapCharacters|textMultiLine"
+            tools:text="26" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:text="@string/label_fornecedor" />
+
+        <TextView
+            android:id="@+id/fornecdor_produto_detalhe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textCapCharacters|textMultiLine"
+            tools:text="Nike Store" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/add_quantidade_compra"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginTop="12dp"
+            android:text="+" />
+
+        <TextView
+            android:id="@+id/quantidade_escolhida_compra"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="6dp"
+            android:text="0"
+            android:textSize="18sp" />
+
+
+        <Button
+            android:id="@+id/sub_quantidade_compra"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="12dp"
+            android:text="-" />
+
+        <Button
+            android:id="@+id/comprar"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="12dp"
+            android:text="@string/btn_comprar" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/comprar_mais"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="@string/btn_comprar_mais" />
+
+    <Button
+        android:id="@+id/btn_deletar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="deletar produto" />
+
+</LinearLayout>
